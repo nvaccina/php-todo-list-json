@@ -12,6 +12,12 @@ if(isset($_POST['todo-text'])){
   filePut($list);
 }
 
+if(isset($_POST['taskToDelete'])){
+  $index = $_POST['taskToDelete'];
+  array_splice($list, $index, 1);
+  filePut($list);
+}
+
 function filePut($list){
   file_put_contents('todo-list.json', json_encode($list));
 }
