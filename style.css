@@ -25,10 +25,10 @@ body{
   padding-bottom: 20px;
 }
 .input-area input, .input-area button{
-  padding: 10px;
   border-radius: 10px;
 }
 .input-area input{
+  padding: 10px;
   margin-right: 20px;
   width: 300px;
 }
@@ -37,6 +37,14 @@ body{
   font-weight: bold;
   background-color: rgb(23, 74, 241);
   color: white;
+  border: 3px solid transparent;
+  padding: 10px 20px;
+  transition: all 0.3s;
+}
+.input-area button:hover{
+  background-color: white;
+  color: rgb(23, 74, 241);
+  border: 3px solid rgb(23, 74, 241);
 }
 .nv_container{
   width: 60%;

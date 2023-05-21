@@ -33,7 +33,7 @@ createApp({
       }
     },
     deleteTask(index){
-      if(this.list[index].done){
+      if(this.list[index].done && confirm('Vuoi davvero eliminare questo elemento?')){
         const data = new FormData();
         data.append('taskToDelete', index);
         axios.post(this.apiUrl, data)
