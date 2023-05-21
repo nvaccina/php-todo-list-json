@@ -15,4 +15,4 @@ Mostrare lo stato del task → se completato, barrare il testo<br>
 Permettere di segnare un task come completato facendo click sul testo<br>
 Permettere il toggle del task (completato/non completato)<br>
 Abilitare l’eliminazione di un task<br>
-## Papar Information
+
