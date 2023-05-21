@@ -61,7 +61,7 @@ body{
 .list li i:hover{
   color: red;
 }
-.list li.done span{
+.done{
   text-decoration: line-through;
 }
 .error{

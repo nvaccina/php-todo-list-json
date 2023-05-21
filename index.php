@@ -38,7 +38,7 @@
     </div>
 
     <div>
-      <span class="error"><!--{{msgError}}--></span>
+      <span class="error">{{msgError}}</span>
 
       <span v-html="messageCheck" class="check"></span>
       
@@ -53,7 +53,7 @@
         <span class="f-12">(Aggiungi un nuovo to-do dalla barra qui sopra)</span>
       </div>
 
-      <ul class="list">
+      <ul class="list px-0">
         <li 
           v-for="(listItem, index) in list"
           :key="index"
